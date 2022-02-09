@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+  }
+  
+
+
+.form-group{
+display: flex;
+
+text-align: center;
+justify-content: center;
+background-color: black;
+width: 90%;
+max-width: 500px;
+height: 200px;
+margin: 0 auto;
+padding: 20px;
+box-shadow: 0px 0px 20px #00000010;
+background-color: rgb(77, 0, 0);
+border-radius: 8px;
+margin-bottom: 20px;
+}
+.form-input{
+    
+    align-items: center;
+}
+body {
+    font-family: "Montserrat";
+   
+  }
+section {
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+#declaration{
+    background-color: black;
+    color: floralwhite;
+    overflow: none;
+}
+#question{
+    background-color: black;
+    color: orangered;
+}
